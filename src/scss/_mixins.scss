@@ -1,0 +1,13 @@
+@mixin block( $width, $height, $padding, $borderRadius, $backgroundColor ) {
+  width: $width;
+  height: $height;
+  padding: $padding;
+  border-radius: $borderRadius;
+  background-color: $backgroundColor;
+}
+@mixin textBlock( $fontSize, $lineHeight, $color) {
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  color: $color;
+  font-family: 'Montserrat', sans-serif;
+}
